@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.msPrincipal = new System.Windows.Forms.MenuStrip();
             this.empleadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agregarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -36,20 +36,20 @@
             this.verToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calcularToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnSalir = new System.Windows.Forms.Button();
-            this.menuStrip1.SuspendLayout();
+            this.msPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // msPrincipal
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.msPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.empleadosToolStripMenuItem,
             this.verToolStripMenuItem,
             this.calcularToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(680, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            this.msPrincipal.Location = new System.Drawing.Point(0, 0);
+            this.msPrincipal.Name = "msPrincipal";
+            this.msPrincipal.Size = new System.Drawing.Size(680, 24);
+            this.msPrincipal.TabIndex = 0;
+            this.msPrincipal.Text = "Menu principal";
             // 
             // empleadosToolStripMenuItem
             // 
@@ -108,12 +108,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(680, 389);
             this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.Controls.Add(this.msPrincipal);
+            this.MainMenuStrip = this.msPrincipal;
             this.Name = "Principal";
             this.Text = "Principal";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.msPrincipal.ResumeLayout(false);
+            this.msPrincipal.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -121,7 +121,7 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.MenuStrip msPrincipal;
         private System.Windows.Forms.ToolStripMenuItem empleadosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem agregarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem modificarToolStripMenuItem;
