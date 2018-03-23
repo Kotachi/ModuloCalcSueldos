@@ -1,6 +1,6 @@
 ﻿namespace ModuloCalcSueldos
 {
-    partial class Form1
+    partial class Entrada
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,12 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnAcceso = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnAcceso
+            // 
+            this.btnAcceso.Location = new System.Drawing.Point(359, 227);
+            this.btnAcceso.Name = "btnAcceso";
+            this.btnAcceso.Size = new System.Drawing.Size(75, 23);
+            this.btnAcceso.TabIndex = 0;
+            this.btnAcceso.Text = "Ingresar";
+            this.btnAcceso.UseVisualStyleBackColor = true;
+            this.btnAcceso.Click += new System.EventHandler(this.btnAcceso_Click);
+            // 
+            // Entrada
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(650, 421);
+            this.Controls.Add(this.btnAcceso);
+            this.Name = "Entrada";
+            this.Text = "Acceso";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnAcceso;
     }
 }
 

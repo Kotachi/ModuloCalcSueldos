@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ModuloCalcSueldos
 {
-    public partial class Form1 : Form
+    public partial class Modificar_Empleado : Form
     {
-        public Form1()
+        public Modificar_Empleado()
         {
             InitializeComponent();
         }
